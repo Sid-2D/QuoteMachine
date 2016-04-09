@@ -1,0 +1,68 @@
+body {
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+}
+.quote {
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    font-size: 4vmin;
+    width: 50vw;
+    transition: 4s ease-in-out;
+    animation: fadein 2s;
+    position: absolute;
+    z-index: -1;
+    margin: auto 25vw;
+    margin-top: 36vmin;
+    display: inline-block;
+    font-style: oblique;
+    text-align:center;
+}
+.header {
+    font-family: Satisfy;
+    color: #fff;
+    margin:0;
+    text-align:center;
+    width:100%;
+    max-width: 200%;
+    font-size:5.4vmin;
+    position: absolute;
+    z-index: -1;
+}
+.header1 {
+    font-family: Satisfy, cursive;
+    color: #fff;
+    margin:0;
+    margin-top:7vmin;
+    text-align:center;
+    width:100%;
+    font-size:3vmin;
+    position: absolute;
+    z-index: -1;
+    text-decoration: underline;
+}
+.btn {
+    font-family: 'Share Tech Mono';
+    margin:0;
+    font-size: 3vmin;
+    margin-top: 13vmin;
+    z-index: 1;
+    border-radius: 1vmin;
+    text-align: center;
+    background-image: linear-gradient(#ccc, #999);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@keyframes move {
+    from {opacity: 1}
+    to {opacity: 0.1}
+}
